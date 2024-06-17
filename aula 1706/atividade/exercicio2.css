@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+    background: linear-gradient(65deg, #EDF1D6, #609966);
+}
+
+.cabecalho {
+    margin: 4vh;
+    text-align: center;
+    text-shadow: 1.6vh 1.6vh 1.6vh black;
+    box-shadow: 1.3vh 1.3vh 1.3vh 0 black;
+    
+}
+
+.secao1 {
+    background-color: #edf1d69e;
+    text-align: center;
+    text-shadow: 2vh 2vh 2vh black;
+    box-shadow: 1.3vh 1.3vh 1.3vh 0 black;
+    margin: 2vh;
+}
+
+.botao1 {
+    background-color: #679a5cb7;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3vh;
+  }
+
+.secao2 {
+    background-color: #9dc08ba5;
+    text-align: center;
+    text-shadow: 2vh 2vh 2vh black;
+    box-shadow: 1.3vh 1.3vh 1.3vh 0 black;
+    margin: 2vh;
+}
+
+.botao2 {
+    background-color: #40513B;
+    border: none;
+    color: rgba(255, 255, 255, 0.701);
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3vh;
+}
+
+.secao3 {
+    background-color: #40513bb2;
+    text-align: center;
+    text-shadow: 2vh 2vh 2vh black;
+    box-shadow: 1.3vh 1.3vh 1.3vh 0 black;
+    margin: 2vh;
+}
+
+.botao3 {
+    background-color: #edf1d69e;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 2vh;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 3vh;
+  }
