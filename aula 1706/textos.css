@@ -1,0 +1,59 @@
+/* Propriedades de fonte e texto */
+body {
+    /* define uma lista de fontes a ser usada */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    font-size: 10px;
+}
+
+p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 600; /* varia de thin ao black */
+    text-decoration: none;
+    letter-spacing: 1px;
+    line-height: em;
+    /* hexadecimal / rgb / rgba */
+    /* color: #121212; */
+    /* color: rgb(17, 24, 24); */
+    color: rgba(233, 12, 80, 0.7);
+    font-size: 2rem;
+}
+
+    /* 
+    - Unidades absolutas (px, cm, pt, etc..)
+    - Unidades relativas 
+    vh -> viewport height (altura tela)
+    vw -> viewport width (largura tela)
+    % -> relativo ao elemento pai (Precisa de um elemento que tenha altura definida.)
+    rem -> relativo ao elemento raiz.
+    */
+    
+
+.quadrado1 {
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.quadrado2 {
+    background-color: chartreuse;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.quadrado3 {
+    background-color: blueviolet;
+    width: 60%;
+    height: 40%;
+    margin: auto;
+}
+
+.quadrado4 {
+    background-color: violet;
+    height: 300px;
+}
