@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background-color: #0b0f19;
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.navbar img {
+    height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #d9b800;
+}
+
+@media (max-width: 480px) {
+    /* - trocar a navbar de row para column */
+    /* - redefinir a altura da navbar*/
+    /* - alinhar os elementos */
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 12px;
+    }
+
+    /* - ajustar a largura */
+    .navbar img {
+        width: 156px;
+    }
+
+    /* - row p/ column */
+    .nav-links {
+        flex-direction: column;
+    }
+}
+
+/* Seção de cards responsivos */
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: beige;
+    justify-content: center;
+    gap: 16px;
+    padding: 8px;
+}
+
+.section-card {
+    width: 300px;
+    padding: 16px;
+    background-color: wheat;
+    display: flex;
+    gap: 16px;
+    border-radius: 8px;
+}
+
+.section-card img {
+    width: 120px;
+    border-radius: 8px;
+}
+
+.section-card p {
+    text-align: justify;
+}
+
+@media (max-width: 740px) {
+    .selection-card {
+        flex-direction: column;
+        padding: 0;
+        gap: 0;
+    }
+
+    .section-card img {
+        width: 100%;
+    }
+
+    .section-card p {
+        padding: 16px;
+    }
+}
