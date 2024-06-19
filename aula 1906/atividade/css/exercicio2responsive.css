@@ -1,0 +1,65 @@
+@media (max-width :480px) {
+    html {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        display: flex;
+        padding: 6px;
+    }
+
+    header {
+        padding: 0.4rem;
+    }
+
+    main {
+        padding: 0.4rem;
+    }
+
+    .intro, .gallery {
+        margin-bottom: 1rem;
+
+    }
+
+    .gallery {
+        height: 70vh;
+    }
+
+    .images {
+        flex-direction: column;
+        height: 20vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    html {
+        font-size: 1.15rem;
+    }
+
+    nav ul li {
+        display: flex;
+        padding: 6px;
+    }
+
+    header {
+        padding: 0.6rem;
+    }
+
+    main {
+        padding: 0.6rem;
+    }
+
+    .intro, .gallery {
+        margin-bottom: 1.14rem;
+
+    }
+
+    .gallery {
+        height: 90vh;
+    }
+
+    .images {
+        flex-direction: column;
+        height: 20vh;
+    }
+}
