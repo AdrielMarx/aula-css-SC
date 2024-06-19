@@ -10,7 +10,12 @@
     background-color: #121212;
     justify-content: space-between;
     padding: 16px;
+    height: 64px;
     
+}
+
+.container1 img{
+    height: 100%;
 }
 
 .container2 {
